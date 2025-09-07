@@ -1,6 +1,6 @@
 services:
   db:
-    image: postgres:15          # версия Postgres, можно указать другую
+    image: postgres:15          # версия Postgres
     container_name: postgres_database
     restart: always
     environment:
@@ -27,3 +27,4 @@ services:
 
 volumes:
   pgdata:
+
